@@ -1,0 +1,30 @@
+[23:26, 7/11/2019] Geektutor dsc: Front End - 
+Create an app called "Slaying Monsters" 
+Features:
+- UI: Two Health Bars , Attack Button , Heal Button , Reset Button 
+- Actions: Player and Monster Take turns to make a move , game ends when either is has 0 health
+
+BONUS: there's is a log of each turn and a pop up when the game ends
+[23:26, 7/11/2019] Geektutor dsc: Backend - 
+How about a REST API with 1 endpoint that receives 
+An email and a frequency in seconds 
+
+So when the endpoint receives it , it starts a cron job that schedules sending spam emails to that email in the amount of frequency 
+
+This is to be hosted on Heroku
+[23:27, 7/11/2019] Geektutor dsc: Android should do the same as frontend and upload the APK on GitHub
+[23:28, 7/11/2019] Geektutor dsc: Frontend should host it on heroku too.
+
+All codes should be on GitHub.
+
+Good luck everyone.
+
+I would send submission link at 11pm tomorrow.
+
+Backend - 
+How about a REST API with 1 endpoint that receives 
+An email and a frequency in seconds 
+
+So when the endpoint receives it , it starts a cron job that schedules sending spam emails to that email in the amount of frequency 
+
+This is to be hosted on Heroku
