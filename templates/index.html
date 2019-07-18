@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+	margin:0 auto;
+	padding:0;
+	background: #f4f4f4;
+	overflow: hidden;
+	font-size: 16px;
+	font-family: Poppins,sans-serif;
+}
+
+.container{
+	margin:0 auto;
+	width:20%;
+	margin-top: 15%;
+}
+
+label{
+	margin-left: 15%;
+}
+
+.input{
+	border:0px #f4f4f4 solid;
+	border-bottom:1px #111 solid;
+	margin-left: 15%;
+}
+
+#Submit{
+	margin-top:5%;
+	padding:5px 10px;
+}
+
+#title_{
+	margin-bottom:5%;
+}
+
+#reg_form{
+	font-weight: 300;
+	background: white;
+	padding:6% 5%;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(1,1,1,0.3);
+}
+
+	</style>
+</head>
+<body>
+	<div id="reg_form" class="container">
+		<form method="POST" action="sendmail">
+			<label for="name">Email</label><br>
+			<input type="email" name="email" value="name" class="input">
+			<br>
+			<label for="frequency"></label>
+			<input type="text" name="frequency" value="frequency" class="input">
+			<input type="submit" name="" id="Submit" class="input">
+		</form>
+	</div>
+
+</body>
+</html>
