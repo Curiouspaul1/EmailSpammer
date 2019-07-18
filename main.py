@@ -1,6 +1,15 @@
 
+#A deployed version to play around with (link below)
 '''heroku link
 https://pure-savannah-79098.herokuapp.com'''
+
+'''
+	Just wanted to explain that the commented out code
+	aren't just for show i used them to test out a restful
+	version of this app that sends json data - made use of
+	postman to send json if you look through the commented
+	lines you probaably see that already - so if you like
+	salvage what you can '''
 
 #Dependencies
 from flask import Flask,request,jsonify,render_template
@@ -69,6 +78,11 @@ def sendmail():
 	frequency = abs(eval(frequency))
 
 	for i in range(5):
+		'''
+		while this will only send 5 random mails
+		you could tweak things probably using
+		a while-loop, incase you just feel like
+		you know being a jerk and all (lol..jk)'''
 		text = '''
 			 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum nisi at turpis pellentesque, ac dapibus augue eleifend. Nunc quis felis quis lorem iaculis dictum. Integer sit amet ultricies quam. Nam vel rhoncus arcu, vitae auctor ex. Phasellus lorem quam, feugiat aliquet rutrum id, pharetra vel tortor. Pellentesque sagittis est at suscipit rutrum. Nulla quis tempor felis. Sed eu tellus feugiat, sagittis elit ut, tincidunt ante. Aenean id elit justo. Ut consectetur luctus nunc ac mattis. Nullam at pharetra arcu. Aenean sodales nunc sed fringilla blandit. Suspendisse pretium mi at urna aliquam, non luctus enim congue. Duis vehicula, enim efficitur hendrerit posuere, mauris neque malesuada massa, venenatis blandit mi tellus in dolor. Aliquam erat volutpat.
 
