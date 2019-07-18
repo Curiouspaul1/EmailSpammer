@@ -28,3 +28,6 @@ An email and a frequency in seconds
 So when the endpoint receives it , it starts a cron job that schedules sending spam emails to that email in the amount of frequency 
 
 This is to be hosted on Heroku
+
+RoajyochCiUdte0
+2018Mech#
