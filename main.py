@@ -1,4 +1,4 @@
-
+ 
 #A deployed version to play around with (link below)
 '''heroku link
 https://pure-savannah-79098.herokuapp.com'''
@@ -31,8 +31,8 @@ app.config.update(dict(
     MAIL_PORT = 587,
     MAIL_USE_TLS = True,
     MAIL_USE_SSL = False,
-    MAIL_USERNAME = 'paulcurious7@gmail.com',
-    MAIL_PASSWORD = 'mechatronic',
+    MAIL_USERNAME = sender_email,
+    MAIL_PASSWORD = sender_password,
 ))
 
 
